@@ -1,0 +1,7 @@
+staging
+build/
+host/
+images/
+target/
+Makefile
+
