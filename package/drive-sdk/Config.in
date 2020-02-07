@@ -1,0 +1,8 @@
+config BR2_PACKAGE_DRIVE_SDK
+	bool "drive_sdk"
+	depends on BR2_PACKAGE_BLUEZ_UTILS || BR2_PACKAGE_BLUEZ5_UTILS
+	help
+	  Anki Overdrive SDK support
+
+	  https://github.com/cybdarren/drive-sdk
+
